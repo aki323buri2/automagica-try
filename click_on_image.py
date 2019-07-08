@@ -6,7 +6,7 @@ def waitAndClickImage(pic:str):
 
 browser = ChromeBrowser()
 browser.get('https://qiita.com/')
-search = 'python x 業務効率化'
+search = 'python 業務効率化'
 
 gh = browser.find_element_by_css_selector('#globalHeader')
 sb = gh.find_element_by_css_selector('.st-Header_searchButton')
